@@ -15,3 +15,5 @@ const server = app.listen(8081, function () {
     const port = server.address().port;
     console.log("Example app listening at http://%s:%s", host, port)
 });
+
+module.exports = app;
